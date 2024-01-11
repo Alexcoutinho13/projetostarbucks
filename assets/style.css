@@ -15,13 +15,13 @@ font-family: 'Oswald', sans-serif;
 }
 .container {
     width: 1140px;
-    height: 100px;
     margin: auto;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100px;
 }
 .header-left {
     display: flex;
@@ -55,9 +55,6 @@ font-family: 'Oswald', sans-serif;
     display: flex;
     align-items: center;
 }
-.menu-burguer {
-
-}
 .menu-burguer img {
     width: 25px;
     cursor: pointer;
@@ -66,8 +63,7 @@ font-family: 'Oswald', sans-serif;
     background: url(images/bg.jpg);
     background-position: center;
     background-size: cover;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding:90px;
 }
 .banner h1 {
     font-family: 'Oswald', sans-serif;
