@@ -9,6 +9,20 @@ font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+.button {
+    padding: 10px 35px;
+    border-radius: 3px;
+    border: solid #454545 2px;
+    background-color: white;
+    text-decoration: none;
+    color: #454545;
+    background-color: white;
+}
+.button:hover {
+    background-color: #454545;
+    color: white;
+
+}
 .header-line {
     background-color: #117050;
     height: 9px;
@@ -79,4 +93,153 @@ font-family: 'Oswald', sans-serif;
     border: 6px solid #117050;
     margin-right: 30px;
     margin-top: 50px;
+}
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "area1-text area1-img2"
+    "area1-img1 area1-img2"
+    ;
+}
+.area1-text {
+    grid-area: area1-text;
+    padding: 60px 140px;
+    margin-bottom: 30px;
+}
+.area1-img1 {
+    background: url(images/f2.jpg);
+    grid-area: area1-img1;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.area1-img2 {
+    grid-area: area1-img2;
+    background: url(images/f1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.area-bar {
+    background-color: #117050;
+    height: 22px;
+    width: 168px;
+}
+.area-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+.area1-quote {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.area-desc {
+    line-height: 27px;
+    margin-bottom: 70px;
+}
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+    "area1-img2 area1-text"
+    "area1-img2 area1-img1"
+    ;
+}
+.area2-text {
+    grid-area: area1-text;
+    padding: 60px 140px;
+    margin-bottom: 30px;
+}
+.area2-img1 {
+    background: url(images/f4.jpg);
+    grid-area: area1-img1;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+.area2-img2 {
+    grid-area: area1-img2;
+    background: url(images/f3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area3-text {
+    background: url(images/bg2.jpg);
+    background-position: left bottom;
+    background-size: cover;
+}
+.area3-img {
+    background: url(images/f5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.area3-text {
+    padding: 210px 180px;
+    margin: auto;
+}
+.area3-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+.area3-desc {
+    margin-bottom: 50px;
+}
+.button-area3 {
+    background-color: transparent;
+}
+.area4 {
+    display: grid;
+    grid-template-columns: 520px 1fr;
+}
+.area4-text {
+    background-color: #e8e9ee;
+    background-position: left bottom;
+    background-size: cover;
+}
+.area4-img {
+    background: url(images/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.area4-text {
+    padding: 180px 130px;
+}
+.area4-title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.area4-desc {
+    margin-bottom: 50px;
+}
+.area5 {
+    background: url(images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+.footer-copy a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.footer-copy a:hover {
+    text-decoration: underline;
 }
